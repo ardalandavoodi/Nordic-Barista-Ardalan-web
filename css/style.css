@@ -1,0 +1,286 @@
+@font-face{
+	font-family:"Ver";
+	src:url("../fonts/VerilySerifMono.ttf");
+	}
+body{
+	font-family:"Ver";
+	}
+.bg-nbc{
+  height:auto;
+  background-image: linear-gradient(#06F,#A8C2E1);
+	}
+#header-top{
+	margin-top:-20px;
+	background-color:black;
+	height:630px;
+	width:1110px;
+	border-radius:5px;
+	}
+	
+#header-top-fixed{
+	position: fixed;
+    z-index: 9999;
+	background-color:black;
+	height:145px;
+	width:1110px;
+	margin-top:-25px;
+}
+#header-bottom2{
+	height:90px;
+	width:1110px;
+	margin-top:-5px;
+	border-radius:5px;
+	background-color:black;	
+}
+	
+	
+	
+
+#header-top-page{
+	margin-top:-20px;
+	background-color:black;
+	height:140px;
+	width:1110px;
+	border-radius:5px;
+	position: fixed;
+    z-index: 9999;
+	}	
+#header-top2{
+	}		
+#header-top2page{
+	padding-top:25px;
+	}		
+#title1{
+	padding-top:25px;
+	padding-left:25px;
+	}
+.color-b{
+	color:#5C5959;
+	}
+.link-search{
+  text-decoration: none;
+  float:right;
+  margin-top:-50px;
+  margin-right:60px;
+	}	
+.link-search:hover {
+  background-color: #ce0606;
+	}
+.link-search:active {
+  box-shadow: none;
+  top: 5px;
+	}
+#title-2{
+	padding-left:25px;
+	color:white;
+	float:left;
+	margin-top:-10px;
+	}
+#nav-header{
+	padding-left:220px;
+	padding-bottom:40px;
+	}
+#slider{
+	margin-top:-35px;
+	}
+#slider2{
+	margin-top:120px;
+	}
+#des-header-bottom{	
+	color:#EFEFEF;
+	margin-left:25px;
+	float:left;
+	}
+#social-me{
+	margin-top:20px;
+	margin-right:25px;
+	float:right;
+	}
+.btn{
+	margin-right:-10px;	
+	}
+.btn:hover{
+	opacity:0.6;
+	}	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+#article-page{
+	padding-left:15px;
+	padding-top:15px;
+	width:800px;
+	height:200;
+	}
+#short-text{
+	width:830px;
+	height:170px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	}
+.btn-primary{
+      box-shadow: 1px 2px 5px #000000;   
+    }
+.btn-primary:hover {
+      background: #fff;
+      color: #000;
+    }
+ #img1{
+	float:left;
+	margin:10px;
+	}	
+#img1:hover{
+	opacity: 0.7;
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	}
+.pagination a {
+  margin: 0 4px; /* 0 is for top and bottom. Feel free to change it */
+	}
+#article-page-more{
+	padding-top:15px;
+	width:800px;
+	height:550;
+	}
+#short-text-more{
+	width:auto;
+	height:550px;
+	text-align: justify;
+	padding:35px;
+	}	
+#style-hr {
+	height: 20px;
+	border: 10;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+	}
+#side-left{
+	height:550px;
+	width:740;
+	margin-top:15px;
+	padding-left:25px;
+	margin-left:79px;
+	border-radius:5px;
+	background-image:linear-gradient(gray,#333);
+	}
+#side-left-more{
+	height:550px;
+	width:260px;
+	margin-top:15px;
+	padding-left:10px;
+	margin-left:75px;
+	border-radius:5px;
+	background-image:linear-gradient(gray,#333);
+	}
+#text-side{
+	padding-top:20px;
+	}
+#comp-date{
+	margin-top:10px;
+	}
+
+
+
+
+
+
+#sponsors{
+	background-color:#F3E9E9;
+	border:2px solid;
+	border-radius:5px;
+	padding:15px;
+	box-shadow: 5px 5px #888888;
+	width:1110px;
+	}
+#sponsors img{
+	margin-left:25px;
+	margin-top:20px;
+	}
+#sponsors-text{
+	padding-left:25px;
+	}	
+
+
+
+
+
+
+
+
+#myfooter{
+	background-color:#111010;
+	border: 2px solid transparent;
+	padding:10px;
+	width:1110px;
+	border-radius:5px;
+	box-shadow: 5px 5px #888888;
+	}
+#myfooter-more{
+	background-color:#111010;
+	margin-left:-30px;
+	margin-top:-15px;
+	border: 2px solid transparent;
+	width:1110px;
+	border-radius:5px;
+	box-shadow: 5px 5px #888888;
+	}
+	
+#footer-icon img{
+	max-heigth:80px;
+	max-width:80px;
+	margin-right:5px;
+	margin-top:5px;
+	}
+.fa {
+  padding: 10px;
+  font-size:40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+	}
+.fa:hover {
+    opacity: 0.7;
+	}
+#so-media{
+	
+	}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-right:10px;
+	}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-right:10px;
+	}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin-right:10px;
+	}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin-right:10px;
+	}
+.fa-rss {
+  background: #ff6600;
+  color: white;
+  margin-right:10px;
+	}
+	
+	
+-------search in the article-----------
+.active-cyan-4 input[type=text]:focus:not([readonly]) {
+border: 1px solid #4dd0e1;
+box-shadow: 0 0 0 1px #4dd0e1;
+	}	
+
